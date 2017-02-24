@@ -1,8 +1,8 @@
 //require express
 var express        = require('express');
 var expressLayouts = require('express-ejs-layouts');
-var leboncoin      = require('./leboncoin');
-var meilleuragents = require('./meilleursagents');
+var leboncoin      = require('../leboncoin');
+var meilleuragents = require('../meilleursagents');
 var app            = express();
 
 //create our route object

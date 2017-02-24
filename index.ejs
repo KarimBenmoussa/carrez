@@ -148,11 +148,11 @@
 	 	 
 
 			const url        = bookmarkInput.value;
-			const bookmark     = document.createElement('p');
-			bookmark.className = 'bookmark';
-			bookmark.innerText = 'this is a '+ <%=type%>;
-			bookmark.href      = '#';
-			bookmark.target    = '_blank';
+			const bookmark     = document.createElement('li');
+			//bookmark.className = 'bookmark';
+			bookmark.innerText = 'this is a '+ <%=type%> + ' who has ' + <%=square%> + 'square' + ', price low:' + <%=low%> + ', price mean:'+ <%=mean%> + 'and price high :' + <%=high%>;
+			//bookmark.href      = '#';
+			//bookmark.target    = '_blank';
 			//console.log(bookmark);
 			bookmarksList.appendChild(bookmark);
 			bookmarkForm.reset();
